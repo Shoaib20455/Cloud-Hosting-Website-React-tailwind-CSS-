@@ -1,0 +1,104 @@
+/* Footer Component Styling */
+
+
+.myfooter {
+    font-family: sans-serif;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+    color: white;
+    text-align: center;
+}
+
+.socials li {
+    margin: 0 20px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.socials a  {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover {
+    color: aqua;
+}
+
+.footer-bottom {
+    padding: 20px;
+    text-align: center;
+    clear: both; /* Added to clear floated elements */
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: #cacdd2; /* Changed text color */
+}
+
+.footer-bottom p a {
+    color: #44bae8;
+    text-decoration: none;
+}
+
+.footer-menu ul {
+    display: flex;
+    justify-content: center; /* Center the list */
+}
+
+.footer-menu ul li {
+    padding-right: 10px;
+    display: block;
+}
+
+.footer-menu ul li a {
+    color: #cfd2d6;
+    text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+    color: #27bcda;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 500px) {
+    .footer-menu ul {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
